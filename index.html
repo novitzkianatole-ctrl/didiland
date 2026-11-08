@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Didiland</title>
+  <meta name="description" content="Bienvenue sur Didiland">
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #1e293b;
+      --text: #e2e8f0;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      background: radial-gradient(circle at top, #1e3a5f 0%, var(--bg) 60%);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      text-align: center;
+    }
+    h1 {
+      font-size: clamp(2.5rem, 8vw, 5rem);
+      letter-spacing: -0.03em;
+      margin-bottom: 1rem;
+    }
+    h1 span { color: var(--accent); }
+    p.lead {
+      font-size: 1.2rem;
+      color: var(--muted);
+      max-width: 36rem;
+      margin-bottom: 2.5rem;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      width: 100%;
+      max-width: 48rem;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid #334155;
+      border-radius: 12px;
+      padding: 1.5rem;
+      text-align: left;
+    }
+    .card h2 { font-size: 1.1rem; margin-bottom: 0.5rem; color: var(--accent); }
+    .card p { color: var(--muted); font-size: 0.95rem; line-height: 1.5; }
+    footer {
+      margin-top: 3rem;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Bienvenue sur <span>Didiland</span></h1>
+  <p class="lead">Mon site personnel, hébergé gratuitement avec GitHub Pages.</p>
+
+  <div class="cards">
+    <div class="card">
+      <h2>À propos</h2>
+      <p>Présente-toi ici : qui tu es, ce que tu fais, ce qui te passionne.</p>
+    </div>
+    <div class="card">
+      <h2>Projets</h2>
+      <p>Liste ici tes projets, créations ou idées en cours.</p>
+    </div>
+    <div class="card">
+      <h2>Contact</h2>
+      <p>Ajoute ici un moyen de te contacter.</p>
+    </div>
+  </div>
+
+  <footer>&copy; <span id="year"></span> Didiland &middot; didiland.dpdns.org</footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
