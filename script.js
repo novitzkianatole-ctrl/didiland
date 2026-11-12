@@ -9,13 +9,16 @@ const hamburger = document.querySelector('.hamburger');
 const navLinks = document.querySelector('.nav-links');
 if (hamburger) {
   hamburger.addEventListener('click', () => {
-    hamburger.classList.toggle('open');
-    navLinks.classList.toggle('open');
+    const open = navLinks.classList.toggle('open');
+    hamburger.classList.toggle('open', open);
+    hamburger.setAttribute('aria-expanded', String(open));
+    hamburger.setAttribute('aria-label', open ? 'Fermer le menu' : 'Ouvrir le menu');
   });
   navLinks.querySelectorAll('a').forEach(link => {
     link.addEventListener('click', () => {
       hamburger.classList.remove('open');
       navLinks.classList.remove('open');
+      hamburger.setAttribute('aria-expanded', 'false');
     });
   });
 }
@@ -109,12 +112,12 @@ function renderPortfolio(portfolio) {
       .sort((a, b) => a.order - b.order);
     if (items.length === 0) continue;
 
-    html += `<h3 class="portfolio-category"><span class="gold">${cat.icon}</span> ${cat.label}</h3>`;
+    html += `<h3 class="portfolio-category"><span class="gold" aria-hidden="true">${cat.icon}</span> ${cat.label}</h3>`;
     html += '<div class="portfolio-grid">';
     for (const item of items) {
       const wideClass = item.wide ? ' portfolio-item--wide' : '';
       html += `<div class="portfolio-item${wideClass}" data-tags="${item.tags.join(' ')}">
-        <img src="${item.image}" alt="${item.alt || item.title + ' — ' + item.description}" loading="lazy">
+        <img src="${item.image}" alt="${item.alt || item.title + ' — ' + item.description}" loading="lazy"${item.width ? ` width="${item.width}" height="${item.height}"` : ''}>
         <div class="overlay">
           <div>
             <h4>${item.title}</h4>
@@ -274,8 +277,8 @@ function renderHomepage(data) {
       portfolioGrid.innerHTML = selectedItems.map((item, i) => {
         const wideClass = i === 0 ? ' portfolio-item--wide' : '';
         return `<div class="portfolio-item${wideClass} reveal">
-          <img src="${item.image}" alt="${item.alt || item.title}" loading="lazy">
-          <div class="overlay"><h4>${item.title}</h4></div>
+          <img src="${item.image}" alt="${item.alt || item.title}" loading="lazy"${item.width ? ` width="${item.width}" height="${item.height}"` : ''}>
+          <div class="overlay"><h3>${item.title}</h3></div>
         </div>`;
       }).join('');
       observeReveals();
@@ -315,7 +318,7 @@ function renderServices(services) {
           <img src="${s.image}" alt="${s.title}" loading="lazy" style="width:100%;height:100%;object-fit:cover">
         </div>
         <div class="service-detail-content">
-          <h3>${s.title} <span class="gold">${s.title_gold}</span></h3>
+          <h2 class="service-detail-title">${s.title} <span class="gold">${s.title_gold}</span></h2>
           <span class="price">${s.price}</span>
           <p>${s.description}</p>
           <ul>

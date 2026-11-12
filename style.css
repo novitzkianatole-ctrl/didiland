@@ -283,3 +283,17 @@ a.service-card{display:block}
 .portfolio-intro{max-width:780px;margin:0 auto 3.5rem;text-align:center}
 .portfolio-intro p{color:var(--gray);line-height:1.8;margin-bottom:1rem}
 .portfolio-gallery-title{font-size:clamp(1.4rem,3vw,1.9rem);text-align:center;margin-bottom:2rem}
+
+/* ===== SEO / ACCESSIBILITÉ ===== */
+.about-text{max-width:820px;margin:0 auto;text-align:center}
+.about-text p{color:var(--gray);line-height:1.8;margin-bottom:1rem}
+.service-detail-content .service-detail-title{font-size:1.8rem;margin-bottom:.5rem}
+.portfolio-item .overlay h3{font-family:var(--font-serif);font-size:1.1rem}
+.contact-label{font-size:1rem;margin-bottom:.3rem}
+button.hamburger{background:none;border:0}
+img[width]{height:auto}
+.portfolio-item img,.featured-img img{height:100%}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+  .reveal,.reveal-left,.reveal-right{opacity:1;transform:none}
+}
