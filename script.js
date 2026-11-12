@@ -117,7 +117,7 @@ function renderPortfolio(portfolio) {
     for (const item of items) {
       const wideClass = item.wide ? ' portfolio-item--wide' : '';
       html += `<div class="portfolio-item${wideClass}" data-tags="${item.tags.join(' ')}">
-        <img src="${item.image}" alt="${item.alt || item.title + ' — ' + item.description}" loading="lazy"${item.width ? ` width="${item.width}" height="${item.height}"` : ''}>
+        <img src="${item.image}" alt="${item.alt || item.title + ' — ' + item.description}" loading="lazy"${item.width ? ` width="${item.width}" height="${item.height}"` : ''}${item.srcset ? ` srcset="${item.srcset}" sizes="(max-width: 480px) 100vw, (max-width: 968px) 50vw, 400px"` : ''}>
         <div class="overlay">
           <div>
             <h4>${item.title}</h4>
@@ -277,7 +277,7 @@ function renderHomepage(data) {
       portfolioGrid.innerHTML = selectedItems.map((item, i) => {
         const wideClass = i === 0 ? ' portfolio-item--wide' : '';
         return `<div class="portfolio-item${wideClass} reveal">
-          <img src="${item.image}" alt="${item.alt || item.title}" loading="lazy"${item.width ? ` width="${item.width}" height="${item.height}"` : ''}>
+          <img src="${item.image}" alt="${item.alt || item.title}" loading="lazy"${item.width ? ` width="${item.width}" height="${item.height}"` : ''}${item.srcset ? ` srcset="${item.srcset}" sizes="(max-width: 480px) 100vw, (max-width: 968px) 50vw, 400px"` : ''}>
           <div class="overlay"><h3>${item.title}</h3></div>
         </div>`;
       }).join('');
@@ -315,7 +315,7 @@ function renderServices(services) {
     detailsContainer.innerHTML = services.details.map(s => `
       <div class="service-detail reveal">
         <div class="service-detail-img">
-          <img src="${s.image}" alt="${s.title}" loading="lazy" style="width:100%;height:100%;object-fit:cover">
+          <img src="${s.image}" alt="${s.alt || s.title}" loading="lazy"${s.srcset ? ` srcset="${s.srcset}" sizes="(max-width: 968px) 100vw, 600px"` : ''} style="width:100%;height:100%;object-fit:cover">
         </div>
         <div class="service-detail-content">
           <h2 class="service-detail-title">${s.title} <span class="gold">${s.title_gold}</span></h2>

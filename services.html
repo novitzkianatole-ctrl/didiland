@@ -23,11 +23,10 @@
   <meta name="twitter:title" content="Services et tarifs CAO joaillerie | Anton Vertanessian">
   <meta name="twitter:description" content="Modélisation 3D de bijoux, rendus photoréalistes et fichiers STL : prestations de CAO joaillerie et tarifs indicatifs, à partir de 30 €. Devis gratuit.">
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://didiland.dpdns.org/"}, {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://didiland.dpdns.org/services.html"}]}</script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/playfair-display-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="icon" type="image/svg+xml" href="images/Logo.svg">
-  <link rel="stylesheet" href="style.css?v=6">
+  <link rel="stylesheet" href="style.css?v=8">
   <noscript><style>.reveal,.reveal-left,.reveal-right{opacity:1;transform:none}</style></noscript>
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Service", "name": "Services de CAO joaillerie et modélisation 3D de bijoux", "serviceType": "CAO joaillerie", "url": "https://didiland.dpdns.org/services.html", "provider": {"@type": "ProfessionalService", "@id": "https://didiland.dpdns.org/#business", "name": "Anton Vertanessian CAD Joaillerie"}, "areaServed": {"@type": "Country", "name": "France"}, "hasOfferCatalog": {"@type": "OfferCatalog", "name": "Tarifs de modélisation 3D de bijoux", "itemListElement": [{"@type": "Offer", "name": "Modélisation 3D : Solitaire simple", "priceCurrency": "EUR", "itemOffered": {"@type": "Service", "name": "Modélisation 3D de bijou : Solitaire simple"}, "price": 40}, {"@type": "Offer", "name": "Modélisation 3D : Solitaire épaulé / accompagné", "priceCurrency": "EUR", "itemOffered": {"@type": "Service", "name": "Modélisation 3D de bijou : Solitaire épaulé / accompagné"}, "priceSpecification": {"@type": "PriceSpecification", "minPrice": 60, "maxPrice": 80, "priceCurrency": "EUR"}}, {"@type": "Offer", "name": "Modélisation 3D : Bague entourage", "priceCurrency": "EUR", "itemOffered": {"@type": "Service", "name": "Modélisation 3D de bijou : Bague entourage"}, "price": 80}, {"@type": "Offer", "name": "Modélisation 3D : Boucles d'oreilles (puces ou créoles)", "priceCurrency": "EUR", "itemOffered": {"@type": "Service", "name": "Modélisation 3D de bijou : Boucles d'oreilles (puces ou créoles)"}, "price": 30}, {"@type": "Offer", "name": "Modélisation 3D : Pendentif", "priceCurrency": "EUR", "itemOffered": {"@type": "Service", "name": "Modélisation 3D de bijou : Pendentif"}, "price": 50}, {"@type": "Offer", "name": "Modélisation 3D : Bracelet jonc (charnière + fermoir cliquet)", "priceCurrency": "EUR", "itemOffered": {"@type": "Service", "name": "Modélisation 3D de bijou : Bracelet jonc (charnière + fermoir cliquet)"}, "price": 120}, {"@type": "Offer", "name": "Modélisation 3D : Bracelet tennis", "priceCurrency": "EUR", "itemOffered": {"@type": "Service", "name": "Modélisation 3D de bijou : Bracelet tennis"}, "priceSpecification": {"@type": "PriceSpecification", "minPrice": 130, "maxPrice": 150, "priceCurrency": "EUR"}}, {"@type": "Offer", "name": "Rendu photoréaliste", "price": 20, "priceCurrency": "EUR", "itemOffered": {"@type": "Service", "name": "Rendu photoréaliste de bijou"}}]}}</script>
 </head>
@@ -56,6 +55,7 @@
   <!-- HEADER -->
   <section class="section" style="padding-top:140px">
     <div class="container">
+      <nav class="breadcrumb reveal" aria-label="Fil d'Ariane"><a href="./">Accueil</a> / <span>Services</span></nav>
       <h1 class="section-title reveal">Services de <span class="gold">CAO joaillerie</span> et modélisation 3D</h1>
       <div class="divider reveal"></div>
       <p class="section-subtitle reveal">Modélisateur 3D bijoux professionnel, j'accompagne bijoutiers, ateliers et créateurs du croquis au fichier STL prêt à imprimer, en sous-traitance ou pour une pièce unique.</p>
@@ -85,7 +85,7 @@
 
         <div class="service-detail reveal">
           <div class="service-detail-img">
-            <img src="images/bague-fleur-or-jaune-pierres-rouges.webp" alt="Rendu photoréaliste — Bague Fleur" loading="lazy" style="width:100%;height:100%;object-fit:cover" width="1600" height="900">
+            <img src="images/bague-fleur-or-jaune-pierres-rouges.webp" alt="Rendu photoréaliste — Bague Fleur" loading="lazy" style="width:100%;height:100%;object-fit:cover" width="1600" height="900" srcset="images/bague-fleur-or-jaune-pierres-rouges-800.webp 800w, images/bague-fleur-or-jaune-pierres-rouges.webp 1600w" sizes="(max-width: 968px) 100vw, 600px">
           </div>
           <div class="service-detail-content">
             <h2 class="service-detail-title">Rendu <span class="gold">Photoréaliste</span></h2>
@@ -105,7 +105,7 @@
 
         <div class="service-detail reveal">
           <div class="service-detail-img">
-            <img src="images/alliance-sacre-coeur-sertie-cao.webp" alt="Fichiers CAD — Alliance Sacré-Cœur" loading="lazy" style="width:100%;height:100%;object-fit:cover" width="1036" height="587">
+            <img src="images/alliance-sacre-coeur-sertie-cao.webp" alt="Fichiers CAD — Alliance Sacré-Cœur" loading="lazy" style="width:100%;height:100%;object-fit:cover" width="1036" height="587" srcset="images/alliance-sacre-coeur-sertie-cao-800.webp 800w, images/alliance-sacre-coeur-sertie-cao.webp 1036w" sizes="(max-width: 968px) 100vw, 600px">
           </div>
           <div class="service-detail-content">
             <h2 class="service-detail-title">Fichiers <span class="gold">CAO</span> STL et OBJ</h2>
@@ -134,12 +134,12 @@
       <div class="before-after-grid">
         <div class="before-after-item reveal">
           <div class="ba-label">Modélisation CAD</div>
-          <img id="ba-cad-img" src="images/bague-fleur-cao-face.webp" alt="Bague Fleur — CAD" loading="lazy" width="889" height="887">
+          <img id="ba-cad-img" src="images/bague-fleur-cao-face.webp" alt="Bague Fleur en CAO joaillerie : modèle 3D vu de face avant le rendu" loading="lazy" width="889" height="887">
         </div>
         <div class="before-after-arrow reveal">&#10132;</div>
         <div class="before-after-item reveal">
           <div class="ba-label">Rendu Final</div>
-          <img id="ba-render-img" src="images/bague-fleur-or-jaune-pierres-rouges.webp" alt="Bague Fleur — Rendu" loading="lazy" width="1600" height="900">
+          <img id="ba-render-img" src="images/bague-fleur-or-jaune-pierres-rouges.webp" alt="Bague Fleur : rendu photoréaliste du même modèle 3D en or jaune" loading="lazy" width="1600" height="900" srcset="images/bague-fleur-or-jaune-pierres-rouges-800.webp 800w, images/bague-fleur-or-jaune-pierres-rouges.webp 1600w" sizes="(max-width: 968px) 100vw, 600px">
         </div>
       </div>
     </div>
@@ -205,12 +205,12 @@
         </div>
       </div>
       <div class="footer-bottom">
-        &copy; 2026 Anton Vertanessian — Anton Vertanessian CAD Joaillerie. Tous droits réservés. | SIRET : 102 025 053 00012
+        Anton Vertanessian — dessinateur CAO joaillerie à Paris (Île-de-France), projets dans toute la France · <a href="tel:+33769051345">07 69 05 13 45</a><br>&copy; 2026 Anton Vertanessian CAD Joaillerie. Tous droits réservés. | SIRET : 102 025 053 00012
       </div>
     </div>
   </footer>
 
-  <script src="data/site-data.js?v=6"></script>
-  <script src="script.js?v=6"></script>
+  <script src="data/site-data.js?v=7"></script>
+  <script src="script.js?v=7"></script>
 </body>
 </html>

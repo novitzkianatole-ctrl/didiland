@@ -27,17 +27,17 @@ window.__SITE_DATA__ = {
         "title": "Échange & Brief"
       },
       {
-        "description": "Création du modèle 3D avec précision millimétrique sur Rhinoceros 3D.",
+        "description": "Création du modèle 3D avec précision millimétrique sur Rhinoceros 3D. <a class=\"gold\" href=\"modelisation-3d-bijoux.html\">La modélisation 3D</a>",
         "number": "02",
         "title": "Modélisation CAO"
       },
       {
-        "description": "Visuels photoréalistes pour validation avant passage en production.",
+        "description": "Visuels photoréalistes pour validation avant passage en production. <a class=\"gold\" href=\"rendu-photorealiste-bijoux.html\">Les rendus</a>",
         "number": "03",
         "title": "Rendu & Validation"
       },
       {
-        "description": "Fichiers STL et OBJ prêts pour l'impression 3D et la fonte.",
+        "description": "Fichiers STL et OBJ prêts pour l'impression 3D et la fonte. <a class=\"gold\" href=\"fichiers-cao-stl-bijoux.html\">Les fichiers</a>",
         "number": "04",
         "title": "Livraison Fichiers"
       }
@@ -134,7 +134,8 @@ window.__SITE_DATA__ = {
         "wide": true,
         "alt": "Rendu photoréaliste bague cocktail Fleur en or jaune sertie de pierres rouges taille ronde",
         "width": 1600,
-        "height": 900
+        "height": 900,
+        "srcset": "images/bague-fleur-or-jaune-pierres-rouges-800.webp 800w, images/bague-fleur-or-jaune-pierres-rouges.webp 1600w"
       },
       {
         "category": "rendu",
@@ -150,7 +151,8 @@ window.__SITE_DATA__ = {
         "wide": false,
         "alt": "Modélisation 3D bague solitaire en or blanc sertie d’un saphir bleu taille coussin",
         "width": 1600,
-        "height": 900
+        "height": 900,
+        "srcset": "images/bague-solitaire-saphir-or-blanc-800.webp 800w, images/bague-solitaire-saphir-or-blanc.webp 1600w"
       },
       {
         "category": "rendu",
@@ -166,7 +168,8 @@ window.__SITE_DATA__ = {
         "wide": true,
         "alt": "Rendu 3D bague Stries en argent sertie de tanzanites taille ronde",
         "width": 1600,
-        "height": 900
+        "height": 900,
+        "srcset": "images/bague-stries-argent-tanzanites-800.webp 800w, images/bague-stries-argent-tanzanites.webp 1600w"
       },
       {
         "category": "rendu",
@@ -182,7 +185,8 @@ window.__SITE_DATA__ = {
         "wide": false,
         "alt": "Rendu 3D bague Rock en argent à texture minérale brute",
         "width": 1600,
-        "height": 900
+        "height": 900,
+        "srcset": "images/bague-rock-argent-texture-brute-800.webp 800w, images/bague-rock-argent-texture-brute.webp 1600w"
       },
       {
         "category": "rendu",
@@ -198,7 +202,8 @@ window.__SITE_DATA__ = {
         "wide": true,
         "alt": "Rendu 3D de deux bagues Forge en or jaune et argent martelé",
         "width": 1600,
-        "height": 614
+        "height": 614,
+        "srcset": "images/bagues-forge-or-argent-martele-800.webp 800w, images/bagues-forge-or-argent-martele.webp 1600w"
       },
       {
         "category": "rendu",
@@ -246,7 +251,8 @@ window.__SITE_DATA__ = {
         "wide": false,
         "alt": "Rendu 3D sculpture crâne en acier patiné couronné de lauriers en or",
         "width": 1554,
-        "height": 1032
+        "height": 1032,
+        "srcset": "images/sculpture-crane-laurier-or-800.webp 800w, images/sculpture-crane-laurier-or.webp 1554w"
       },
       {
         "category": "rendu",
@@ -326,7 +332,8 @@ window.__SITE_DATA__ = {
         "wide": true,
         "alt": "Modélisation 3D alliance Sacré-Cœur sertie, fichier CAO pour impression 3D",
         "width": 1036,
-        "height": 587
+        "height": 587,
+        "srcset": "images/alliance-sacre-coeur-sertie-cao-800.webp 800w, images/alliance-sacre-coeur-sertie-cao.webp 1036w"
       },
       {
         "category": "blender",
@@ -438,7 +445,8 @@ window.__SITE_DATA__ = {
         "wide": false,
         "alt": "Modèle CAO bague solitaire épaulé, vue de profil",
         "width": 1034,
-        "height": 1067
+        "height": 1067,
+        "srcset": "images/bague-solitaire-epaule-profil-cao-800.webp 800w, images/bague-solitaire-epaule-profil-cao.webp 1034w"
       },
       {
         "category": "rhino",
@@ -454,7 +462,8 @@ window.__SITE_DATA__ = {
         "wide": true,
         "alt": "Modélisation 3D bague solitaire épaulé avec pierre émeraude, vue de dessus",
         "width": 1320,
-        "height": 364
+        "height": 364,
+        "srcset": "images/bague-solitaire-epaule-emeraude-cao-800.webp 800w, images/bague-solitaire-epaule-emeraude-cao.webp 1320w"
       },
       {
         "category": "rhino",
@@ -486,7 +495,8 @@ window.__SITE_DATA__ = {
         "wide": false,
         "alt": "Modélisation 3D pendentif goutte serti d’un saphir bleu taille poire",
         "width": 994,
-        "height": 1021
+        "height": 1021,
+        "srcset": "images/pendentif-poire-saphir-cao-800.webp 800w, images/pendentif-poire-saphir-cao.webp 994w"
       },
       {
         "category": "rhino",
@@ -502,7 +512,8 @@ window.__SITE_DATA__ = {
         "wide": false,
         "alt": "Modèle CAO pendentif poire, structure sans pierre",
         "width": 1026,
-        "height": 1053
+        "height": 1053,
+        "srcset": "images/pendentif-poire-structure-cao-800.webp 800w, images/pendentif-poire-structure-cao.webp 1026w"
       },
       {
         "category": "rhino",
@@ -518,7 +529,8 @@ window.__SITE_DATA__ = {
         "wide": false,
         "alt": "Modèle CAO pendentif poire, vue de face avec sertissage",
         "width": 1024,
-        "height": 995
+        "height": 995,
+        "srcset": "images/pendentif-poire-sertissage-cao-800.webp 800w, images/pendentif-poire-sertissage-cao.webp 1024w"
       },
       {
         "category": "rhino",
@@ -550,7 +562,8 @@ window.__SITE_DATA__ = {
         "wide": true,
         "alt": "Modèle CAO bracelet tennis assemblé, détail des griffes",
         "width": 1593,
-        "height": 683
+        "height": 683,
+        "srcset": "images/bracelet-tennis-assemblage-griffes-cao-800.webp 800w, images/bracelet-tennis-assemblage-griffes-cao.webp 1593w"
       },
       {
         "category": "rhino",
@@ -593,7 +606,8 @@ window.__SITE_DATA__ = {
         "price": "Voir grille tarifaire ci-dessous",
         "title": "Modélisation 3D",
         "title_gold": "Sur Mesure",
-        "page": "modelisation-3d-bijoux.html"
+        "page": "modelisation-3d-bijoux.html",
+        "alt": "Modèle CAO de la bague Fleur, vue de profil sur Rhino 3D"
       },
       {
         "description": "Des visuels de qualité photographique qui permettent à vos clients de se projeter avant la fabrication. Idéal pour les validations, les présentations commerciales et les réseaux sociaux.",
@@ -610,7 +624,9 @@ window.__SITE_DATA__ = {
         "price": "+20 € par rendu",
         "title": "Rendu",
         "title_gold": "Photoréaliste",
-        "page": "rendu-photorealiste-bijoux.html"
+        "page": "rendu-photorealiste-bijoux.html",
+        "srcset": "images/bague-fleur-or-jaune-pierres-rouges-800.webp 800w, images/bague-fleur-or-jaune-pierres-rouges.webp 1600w",
+        "alt": "Rendu photoréaliste bague cocktail Fleur en or jaune sertie de pierres rouges taille ronde"
       },
       {
         "description": "Livraison de fichiers dans les formats standards de l'industrie joaillière, compatibles avec les ateliers de fabrication et les imprimantes 3D professionnelles.",
@@ -624,7 +640,9 @@ window.__SITE_DATA__ = {
         "price": "Inclus avec la modélisation",
         "title": "Fichiers",
         "title_gold": "CAO STL et OBJ",
-        "page": "fichiers-cao-stl-bijoux.html"
+        "page": "fichiers-cao-stl-bijoux.html",
+        "srcset": "images/alliance-sacre-coeur-sertie-cao-800.webp 800w, images/alliance-sacre-coeur-sertie-cao.webp 1036w",
+        "alt": "Modélisation 3D alliance Sacré-Cœur sertie, fichier CAO pour impression 3D"
       }
     ],
     "pricing": [
