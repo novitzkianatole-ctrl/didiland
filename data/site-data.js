@@ -1,0 +1,590 @@
+window.__SITE_DATA__ = {
+  "homepage": {
+    "featured": {
+      "description": "Bague cocktail en or jaune sertie de pierres rouges taille ronde, avec un pavage raffiné sur le corps de bague. Modélisation complète réalisée sur Rhinoceros 3D avec rendu photoréaliste KeyShot.",
+      "image": "images/fleur.png",
+      "label": "Pièce à la une",
+      "title": "Bague Fleur",
+      "title_gold": "Fleur"
+    },
+    "featured_portfolio": [
+      "stries-1",
+      "saphir-1",
+      "rock-1",
+      "broche-or-1",
+      "crane-1",
+      "forge-1"
+    ],
+    "hero": {
+      "tagline": "Modélisation 3D & CAO joaillerie sur mesure",
+      "title_line1": "Anton",
+      "title_line2": "Vertanessian"
+    },
+    "process_steps": [
+      {
+        "description": "Discussion autour de votre projet, croquis, références d'inspiration et contraintes techniques.",
+        "number": "01",
+        "title": "Échange & Brief"
+      },
+      {
+        "description": "Création du modèle 3D avec précision millimétrique sur Rhinoceros 3D.",
+        "number": "02",
+        "title": "Modélisation CAD"
+      },
+      {
+        "description": "Visuels photoréalistes pour validation avant passage en production.",
+        "number": "03",
+        "title": "Rendu & Validation"
+      },
+      {
+        "description": "Fichiers STL et OBJ prêts pour l'impression 3D et la fonte.",
+        "number": "04",
+        "title": "Livraison Fichiers"
+      }
+    ],
+    "services_preview": [
+      {
+        "description": "Création de modèles 3D haute précision adaptés à la fabrication joaillière, fidèles à votre vision créative.",
+        "icon": "<svg viewBox=\"0 0 48 48\" aria-hidden=\"true\"><path d=\"M18 6h12l4 5-10 9-10-9z\"/><path d=\"M14 11h20M21 6l-2 5 5 9 5-9-2-5\"/><ellipse cx=\"24\" cy=\"33\" rx=\"13\" ry=\"9\"/><ellipse cx=\"24\" cy=\"33\" rx=\"9\" ry=\"5.5\"/></svg>",
+        "title": "Modélisation 3D"
+      },
+      {
+        "description": "Visuels de qualité photographique pour présenter vos créations à vos clients avant fabrication.",
+        "icon": "<svg viewBox=\"0 0 48 48\" aria-hidden=\"true\"><path d=\"M6 14V6h8M34 6h8v8M42 34v8h-8M14 42H6v-8\"/><path d=\"M18 19h12l4 5-10 10-10-10z\"/><path d=\"M14 24h20\"/></svg>",
+        "title": "Rendu Photoréaliste"
+      },
+      {
+        "description": "Livraison de fichiers STL et OBJ compatibles avec tous les ateliers et imprimantes 3D.",
+        "icon": "<svg viewBox=\"0 0 48 48\" aria-hidden=\"true\"><path d=\"M12 4h17l9 9v31H12z\"/><path d=\"M29 4v9h9\"/><path d=\"M25 21l7 4v8l-7 4-7-4v-8z\"/><path d=\"M18 25l7 4 7-4M25 29v8\"/></svg>",
+        "title": "Fichiers CAD"
+      }
+    ]
+  },
+  "portfolio": {
+    "categories": [
+      {
+        "icon": "&#9670;",
+        "id": "rendu",
+        "label": "Rendus Photoréalistes",
+        "order": 1
+      },
+      {
+        "icon": "&#9670;",
+        "id": "rhino",
+        "label": "Modélisation Rhino",
+        "order": 2
+      },
+      {
+        "icon": "&#9670;",
+        "id": "blender",
+        "label": "Modélisation Blender",
+        "order": 3
+      }
+    ],
+    "filters": [
+      {
+        "id": "all",
+        "label": "Tout"
+      },
+      {
+        "id": "rendu",
+        "label": "Rendus"
+      },
+      {
+        "id": "rhino",
+        "label": "Rhino"
+      },
+      {
+        "id": "blender",
+        "label": "Blender"
+      },
+      {
+        "id": "bague",
+        "label": "Bagues"
+      },
+      {
+        "id": "broche",
+        "label": "Broches"
+      },
+      {
+        "id": "sculpture",
+        "label": "Sculptures"
+      },
+      {
+        "id": "pendentif",
+        "label": "Pendentifs"
+      },
+      {
+        "id": "bracelet",
+        "label": "Bracelets"
+      }
+    ],
+    "items": [
+      {
+        "category": "rendu",
+        "description": "Or jaune, pierres rouges taille ronde",
+        "id": "fleur-1",
+        "image": "images/fleur.png",
+        "order": 1,
+        "tags": [
+          "rendu",
+          "bague"
+        ],
+        "title": "Bague Fleur",
+        "wide": true
+      },
+      {
+        "category": "rendu",
+        "description": "Or blanc, saphir bleu coussin",
+        "id": "saphir-1",
+        "image": "images/Anneau2.png",
+        "order": 2,
+        "tags": [
+          "rendu",
+          "bague"
+        ],
+        "title": "Solitaire Saphir",
+        "wide": false
+      },
+      {
+        "category": "rendu",
+        "description": "Argent, tanzanites taille ronde",
+        "id": "stries-1",
+        "image": "images/stries Anneau.png",
+        "order": 3,
+        "tags": [
+          "rendu",
+          "bague"
+        ],
+        "title": "Bague Stries",
+        "wide": true
+      },
+      {
+        "category": "rendu",
+        "description": "Argent, texture minérale brute",
+        "id": "rock-1",
+        "image": "images/rock.png",
+        "order": 4,
+        "tags": [
+          "rendu",
+          "bague"
+        ],
+        "title": "Bague Rock",
+        "wide": false
+      },
+      {
+        "category": "rendu",
+        "description": "Or jaune et argent martelé",
+        "id": "forge-1",
+        "image": "images/bague forge.PNG",
+        "order": 5,
+        "tags": [
+          "rendu",
+          "bague"
+        ],
+        "title": "Bagues Forge",
+        "wide": true
+      },
+      {
+        "category": "rendu",
+        "description": "Or jaune, émail vert, diamants",
+        "id": "broche-or-1",
+        "image": "images/BO.PNG",
+        "order": 6,
+        "tags": [
+          "rendu",
+          "broche"
+        ],
+        "title": "Broche Florale",
+        "wide": false
+      },
+      {
+        "category": "rendu",
+        "description": "Argent, émail vert, diamants",
+        "id": "broche-argent-1",
+        "image": "images/BO2.PNG",
+        "order": 7,
+        "tags": [
+          "rendu",
+          "broche"
+        ],
+        "title": "Broche Florale — Argent",
+        "wide": false
+      },
+      {
+        "category": "rendu",
+        "description": "Sculpture — Acier patiné, couronne or",
+        "id": "crane-1",
+        "image": "images/Big E.PNG",
+        "order": 8,
+        "tags": [
+          "rendu",
+          "sculpture"
+        ],
+        "title": "Crâne Laurier d'Or",
+        "wide": false
+      },
+      {
+        "category": "rendu",
+        "description": "Sculpture — Vue plongeante",
+        "id": "crane-2",
+        "image": "images/Big E vue haute.PNG",
+        "order": 9,
+        "tags": [
+          "rendu",
+          "sculpture"
+        ],
+        "title": "Crâne Laurier — Vue haute",
+        "wide": false
+      },
+      {
+        "category": "blender",
+        "description": "Vue CAD latérale",
+        "id": "fleur-cad-x",
+        "image": "images/Fleur X.PNG",
+        "order": 1,
+        "tags": [
+          "blender",
+          "bague"
+        ],
+        "title": "Bague Fleur — Profil",
+        "wide": false
+      },
+      {
+        "category": "blender",
+        "description": "Vue CAD frontale",
+        "id": "fleur-cad-y",
+        "image": "images/Fleur Y.PNG",
+        "order": 2,
+        "tags": [
+          "blender",
+          "bague"
+        ],
+        "title": "Bague Fleur — Face",
+        "wide": false
+      },
+      {
+        "category": "blender",
+        "description": "Vue CAD plongeante",
+        "id": "fleur-cad-z",
+        "image": "images/Fleur Z.PNG",
+        "order": 3,
+        "tags": [
+          "blender",
+          "bague"
+        ],
+        "title": "Bague Fleur — Dessus",
+        "wide": false
+      },
+      {
+        "category": "blender",
+        "description": "Anneau serti, modélisation CAD",
+        "id": "sacre-coeur-1",
+        "image": "images/Sacré Coeur 3.PNG",
+        "order": 4,
+        "tags": [
+          "blender",
+          "bague"
+        ],
+        "title": "Alliance Sacré-Cœur",
+        "wide": true
+      },
+      {
+        "category": "blender",
+        "description": "Gravure personnalisée",
+        "id": "chevaliere-1",
+        "image": "images/b1.PNG",
+        "order": 5,
+        "tags": [
+          "blender",
+          "bague"
+        ],
+        "title": "Chevalière — Plateau",
+        "wide": false
+      },
+      {
+        "category": "blender",
+        "description": "Sertissage latéral",
+        "id": "chevaliere-2",
+        "image": "images/b2.PNG",
+        "order": 6,
+        "tags": [
+          "blender",
+          "bague"
+        ],
+        "title": "Chevalière — Pierres",
+        "wide": false
+      },
+      {
+        "category": "blender",
+        "description": "Vue latérale",
+        "id": "chevaliere-3",
+        "image": "images/b3.PNG",
+        "order": 7,
+        "tags": [
+          "blender",
+          "bague"
+        ],
+        "title": "Chevalière — Profil",
+        "wide": false
+      },
+      {
+        "category": "blender",
+        "description": "Vue trois-quarts avec inscription",
+        "id": "chevaliere-4",
+        "image": "images/b4.PNG",
+        "order": 8,
+        "tags": [
+          "blender",
+          "bague"
+        ],
+        "title": "Chevalière — Perspective",
+        "wide": false
+      },
+      {
+        "category": "rhino",
+        "description": "Solitaire avec inscription, vue trois-quarts",
+        "id": "bague-florinne-1",
+        "image": "images/bague.PNG",
+        "order": 9,
+        "tags": [
+          "rhino",
+          "bague"
+        ],
+        "title": "Solitaire Gravé",
+        "wide": false
+      },
+      {
+        "category": "rhino",
+        "description": "Solitaire, vue profil CAD",
+        "id": "bague-florinne-2",
+        "image": "images/bague 2.PNG",
+        "order": 10,
+        "tags": [
+          "rhino",
+          "bague"
+        ],
+        "title": "Solitaire — Profil",
+        "wide": false
+      },
+      {
+        "category": "rhino",
+        "description": "Solitaire épaulé, vue profil",
+        "id": "claire-1",
+        "image": "images/claire.PNG",
+        "order": 11,
+        "tags": [
+          "rhino",
+          "bague"
+        ],
+        "title": "Épaulé — Profil",
+        "wide": false
+      },
+      {
+        "category": "rhino",
+        "description": "Solitaire épaulé, pierre émeraude, vue dessus",
+        "id": "claire-2",
+        "image": "images/claire2.PNG",
+        "order": 12,
+        "tags": [
+          "rhino",
+          "bague"
+        ],
+        "title": "Épaulé — Dessus",
+        "wide": true
+      },
+      {
+        "category": "rhino",
+        "description": "Pendentif volutes avec pierres rondes",
+        "id": "paloma-1",
+        "image": "images/paloma.PNG",
+        "order": 13,
+        "tags": [
+          "rhino",
+          "pendentif"
+        ],
+        "title": "Pendentif Volutes",
+        "wide": false
+      },
+      {
+        "category": "rhino",
+        "description": "Pendentif poire serti, saphir bleu",
+        "id": "pendentif-poire-1",
+        "image": "images/pendentif.PNG",
+        "order": 14,
+        "tags": [
+          "rhino",
+          "pendentif"
+        ],
+        "title": "Pendentif Poire — Saphir",
+        "wide": false
+      },
+      {
+        "category": "rhino",
+        "description": "Pendentif poire, vue CAD sans pierre",
+        "id": "pendentif-poire-2",
+        "image": "images/pendentif 2.PNG",
+        "order": 15,
+        "tags": [
+          "rhino",
+          "pendentif"
+        ],
+        "title": "Pendentif Poire — Structure",
+        "wide": false
+      },
+      {
+        "category": "rhino",
+        "description": "Pendentif poire, vue face avec sertissage",
+        "id": "pendentif-poire-3",
+        "image": "images/mise à jour.PNG",
+        "order": 16,
+        "tags": [
+          "rhino",
+          "pendentif"
+        ],
+        "title": "Pendentif Poire — Face",
+        "wide": false
+      },
+      {
+        "category": "rhino",
+        "description": "Maillons déployés, vue technique",
+        "id": "tennis-1",
+        "image": "images/tennis.PNG",
+        "order": 17,
+        "tags": [
+          "rhino",
+          "bracelet"
+        ],
+        "title": "Tennis — Maillons",
+        "wide": true
+      },
+      {
+        "category": "rhino",
+        "description": "Vue section assemblée, détail griffes",
+        "id": "tennis-2",
+        "image": "images/teniss2.PNG",
+        "order": 18,
+        "tags": [
+          "rhino",
+          "bracelet"
+        ],
+        "title": "Tennis — Assemblage",
+        "wide": true
+      },
+      {
+        "category": "rhino",
+        "description": "Maillon individuel, vue détaillée",
+        "id": "tennis-3",
+        "image": "images/teniss3.PNG",
+        "order": 19,
+        "tags": [
+          "rhino",
+          "bracelet"
+        ],
+        "title": "Tennis — Détail",
+        "wide": false
+      }
+    ]
+  },
+  "services": {
+    "before_after": {
+      "cad_image": "images/Fleur Y.PNG",
+      "cad_label": "Modélisation CAD",
+      "render_image": "images/fleur.png",
+      "render_label": "Rendu Final"
+    },
+    "details": [
+      {
+        "description": "Transformation de vos croquis, photos d'inspiration ou idées en modèles 3D haute précision, prêts pour la fabrication joaillière. Chaque pièce est modélisée avec une attention méticuleuse aux proportions, aux sertissures et aux contraintes de fabrication.",
+        "features": [
+          "Bagues (solitaires, alliances, cocktail, chevalières, CRAND)",
+          "Pendentifs et colliers",
+          "Broches et boucles d'oreilles",
+          "Bracelets et joncs",
+          "Pièces complexes multi-composants"
+        ],
+        "footer": "<strong>Logiciels :</strong> Rhinoceros 3D, ZBrush",
+        "id": "modelisation",
+        "image": "images/Fleur X.PNG",
+        "price": "Voir grille tarifaire ci-dessous",
+        "title": "Modélisation 3D",
+        "title_gold": "Sur Mesure",
+        "page": "modelisation-3d-bijoux.html"
+      },
+      {
+        "description": "Des visuels de qualité photographique qui permettent à vos clients de se projeter avant la fabrication. Idéal pour les validations, les présentations commerciales et les réseaux sociaux.",
+        "features": [
+          "Rendu HD sur fond neutre ou scénographié",
+          "Choix des métaux (or jaune, rose, blanc, platine)",
+          "Simulation réaliste des pierres précieuses",
+          "Vues multiples (face, profil, trois-quarts, porté)",
+          "Animations 360° en option"
+        ],
+        "footer": "<strong>Moteur :</strong> KeyShot / V-Ray",
+        "id": "rendu",
+        "image": "images/fleur.png",
+        "price": "+20 € par rendu",
+        "title": "Rendu",
+        "title_gold": "Photoréaliste",
+        "page": "rendu-photorealiste-bijoux.html"
+      },
+      {
+        "description": "Livraison de fichiers dans les formats standards de l'industrie joaillière, compatibles avec les ateliers de fabrication et les imprimantes 3D professionnelles.",
+        "features": [
+          "STL (impression 3D)",
+          "OBJ (rendu et visualisation)"
+        ],
+        "footer": "<strong>Garantie :</strong> Fichiers vérifiés et prêts à l'emploi",
+        "id": "cad-files",
+        "image": "images/Sacré Coeur 3.PNG",
+        "price": "Inclus avec la modélisation",
+        "title": "Fichiers",
+        "title_gold": "CAD",
+        "page": "fichiers-cao-stl-bijoux.html"
+      }
+    ],
+    "pricing": [
+      {
+        "highlight": false,
+        "price": "40 €",
+        "type": "Solitaire simple"
+      },
+      {
+        "highlight": false,
+        "price": "60 – 80 €",
+        "type": "Solitaire épaulé / accompagné"
+      },
+      {
+        "highlight": false,
+        "price": "80 € ou sur devis",
+        "type": "Bague entourage"
+      },
+      {
+        "highlight": false,
+        "price": "30 €",
+        "type": "Boucles d'oreilles (puces ou créoles)"
+      },
+      {
+        "highlight": false,
+        "price": "50 €",
+        "type": "Pendentif"
+      },
+      {
+        "highlight": false,
+        "price": "120 €",
+        "type": "Bracelet jonc (charnière + fermoir cliquet)"
+      },
+      {
+        "highlight": false,
+        "price": "130 – 150 €",
+        "type": "Bracelet tennis"
+      },
+      {
+        "highlight": true,
+        "price": "Sur devis",
+        "type": "Pièces complexes / sur mesure"
+      }
+    ],
+    "pricing_option": "Option rendu photoréaliste : <span class=\"gold\">+20 €</span>"
+  }
+};

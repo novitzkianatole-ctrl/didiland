@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio CAO joaillerie – bijoux en 3D | Anton Vertanessian</title>
+  <meta name="description" content="Bagues solitaires, chevalières, pendentifs, bracelets tennis : réalisations en CAO joaillerie et rendus photoréalistes modélisés sur Rhinoceros 3D.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://didiland.dpdns.org/portfolio.html">
+  <meta name="author" content="Anton Vertanessian">
+  <meta name="theme-color" content="#000000">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="Anton Vertanessian CAD Joaillerie">
+  <meta property="og:title" content="Portfolio CAO joaillerie – bijoux en 3D | Anton Vertanessian">
+  <meta property="og:description" content="Bagues solitaires, chevalières, pendentifs, bracelets tennis : réalisations en CAO joaillerie et rendus photoréalistes modélisés sur Rhinoceros 3D.">
+  <meta property="og:url" content="https://didiland.dpdns.org/portfolio.html">
+  <meta property="og:image" content="https://didiland.dpdns.org/images/fleur.png">
+  <meta property="og:image:alt" content="Bague Fleur en or jaune modélisée en CAO joaillerie">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://didiland.dpdns.org/"}, {"@type": "ListItem", "position": 2, "name": "Portfolio", "item": "https://didiland.dpdns.org/portfolio.html"}]}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="images/Logo.svg">
+  <link rel="stylesheet" href="style.css?v=4">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar scrolled">
+    <div class="container">
+      <a href="index.html" class="logo"><img src="images/Logo.svg" alt="AV Logo" class="logo-img"><span class="logo-text">Anton <span>Vertanessian</span></span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="services.html#tarifs">Tarifs</a></li>
+        <li><a href="contact.html" class="btn" style="padding:8px 20px;font-size:.85rem">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PORTFOLIO -->
+  <section class="section" style="padding-top:140px">
+    <div class="container">
+      <h1 class="section-title reveal">Mon <span class="gold">Portfolio</span></h1>
+      <div class="divider reveal"></div>
+      <p class="section-subtitle reveal">Découvrez mes réalisations en modélisation 3D joaillière. Chaque pièce est conçue avec précision et passion.</p>
+
+      <!-- FILTERS (rendered dynamically) -->
+      <div class="portfolio-filters reveal" id="portfolio-filters"></div>
+
+      <!-- PORTFOLIO ITEMS (rendered dynamically from site.json) -->
+      <div id="portfolio-content"></div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-banner">
+    <div class="container">
+      <h2 class="reveal">Vous aimez ce que vous voyez ?</h2>
+      <p class="reveal">Parlons de <span class="gold">votre</span> prochain bijou.</p>
+      <a href="contact.html" class="btn btn-fill reveal">Me contacter</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <a href="index.html" class="logo"><img src="images/Logo.svg" alt="AV Logo" class="logo-img"><span class="logo-text">Anton <span>Vertanessian</span></span></a>
+        <div class="footer-links">
+          <a href="services.html">Services</a>
+          <a href="modelisation-3d-bijoux.html">Modélisation 3D de bijoux</a>
+          <a href="rendu-photorealiste-bijoux.html">Rendu photoréaliste de bijoux</a>
+          <a href="fichiers-cao-stl-bijoux.html">Fichiers CAO STL et OBJ</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="contact.html">Contact</a>
+          <a href="mentions-legales.html">Mentions légales</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2026 Anton Vertanessian — Anton Vertanessian CAD Joaillerie. Tous droits réservés. | SIRET : 102 025 053 00012
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox">
+    <button class="lightbox-close">&times;</button>
+    <button class="lightbox-nav lightbox-prev">&#10094;</button>
+    <button class="lightbox-nav lightbox-next">&#10095;</button>
+    <img src="" alt="Agrandissement">
+  </div>
+
+  <script src="data/site-data.js?v=4"></script>
+  <script src="script.js?v=4"></script>
+</body>
+</html>

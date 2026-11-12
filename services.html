@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services CAO joaillerie &amp; modélisation 3D | Anton Vertanessian</title>
+  <meta name="description" content="Modélisation 3D de bijoux sur mesure, rendus photoréalistes et fichiers CAO STL / OBJ pour joailliers, ateliers et créateurs. Tarifs et devis gratuit.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://didiland.dpdns.org/services.html">
+  <meta name="author" content="Anton Vertanessian">
+  <meta name="theme-color" content="#000000">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="Anton Vertanessian CAD Joaillerie">
+  <meta property="og:title" content="Services CAO joaillerie &amp; modélisation 3D | Anton Vertanessian">
+  <meta property="og:description" content="Modélisation 3D de bijoux sur mesure, rendus photoréalistes et fichiers CAO STL / OBJ pour joailliers, ateliers et créateurs. Tarifs et devis gratuit.">
+  <meta property="og:url" content="https://didiland.dpdns.org/services.html">
+  <meta property="og:image" content="https://didiland.dpdns.org/images/fleur.png">
+  <meta property="og:image:alt" content="Bague Fleur en or jaune modélisée en CAO joaillerie">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://didiland.dpdns.org/"}, {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://didiland.dpdns.org/services.html"}]}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="images/Logo.svg">
+  <link rel="stylesheet" href="style.css?v=4">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar scrolled">
+    <div class="container">
+      <a href="index.html" class="logo"><img src="images/Logo.svg" alt="AV Logo" class="logo-img"><span class="logo-text">Anton <span>Vertanessian</span></span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="services.html#tarifs">Tarifs</a></li>
+        <li><a href="contact.html" class="btn" style="padding:8px 20px;font-size:.85rem">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Marker for dynamic services rendering -->
+  <div id="services-dynamic" style="display:none"></div>
+
+  <!-- HEADER -->
+  <section class="section" style="padding-top:140px">
+    <div class="container">
+      <h1 class="section-title reveal">Mes <span class="gold">Services</span></h1>
+      <div class="divider reveal"></div>
+      <p class="section-subtitle reveal">Des prestations complètes pour accompagner vos projets joailliers, du croquis au fichier prêt à imprimer.</p>
+
+      <!-- Service details (rendered dynamically) -->
+      <div id="service-details-container">
+        <!-- Fallback static content -->
+        <div class="service-detail reveal">
+          <div class="service-detail-img">
+            <img src="images/Fleur X.PNG" alt="Modélisation 3D — Bague Fleur vue CAD" loading="lazy" style="width:100%;height:100%;object-fit:cover">
+          </div>
+          <div class="service-detail-content">
+            <h3>Modélisation 3D <span class="gold">Sur Mesure</span></h3>
+            <span class="price">Voir grille tarifaire ci-dessous</span>
+            <p>Transformation de vos croquis, photos d'inspiration ou idées en modèles 3D haute précision, prêts pour la fabrication joaillière. Chaque pièce est modélisée avec une attention méticuleuse aux proportions, aux sertissures et aux contraintes de fabrication.</p>
+            <ul>
+              <li>Bagues (solitaires, alliances, cocktail, chevalières, CRAND)</li>
+              <li>Pendentifs et colliers</li>
+              <li>Broches et boucles d'oreilles</li>
+              <li>Bracelets et joncs</li>
+              <li>Pièces complexes multi-composants</li>
+            </ul>
+            <p><strong>Logiciels :</strong> Rhinoceros 3D, ZBrush</p>
+            <a href="modelisation-3d-bijoux.html" class="btn" style="margin-top:1rem">En savoir plus</a>
+          </div>
+        </div>
+
+        <div class="service-detail reveal">
+          <div class="service-detail-img">
+            <img src="images/fleur.png" alt="Rendu photoréaliste — Bague Fleur" loading="lazy" style="width:100%;height:100%;object-fit:cover">
+          </div>
+          <div class="service-detail-content">
+            <h3>Rendu <span class="gold">Photoréaliste</span></h3>
+            <span class="price">+20 € par rendu</span>
+            <p>Des visuels de qualité photographique qui permettent à vos clients de se projeter avant la fabrication. Idéal pour les validations, les présentations commerciales et les réseaux sociaux.</p>
+            <ul>
+              <li>Rendu HD sur fond neutre ou scénographié</li>
+              <li>Choix des métaux (or jaune, rose, blanc, platine)</li>
+              <li>Simulation réaliste des pierres précieuses</li>
+              <li>Vues multiples (face, profil, trois-quarts, porté)</li>
+              <li>Animations 360° en option</li>
+            </ul>
+            <p><strong>Moteur :</strong> KeyShot / V-Ray</p>
+            <a href="rendu-photorealiste-bijoux.html" class="btn" style="margin-top:1rem">En savoir plus</a>
+          </div>
+        </div>
+
+        <div class="service-detail reveal">
+          <div class="service-detail-img">
+            <img src="images/Sacré Coeur 3.PNG" alt="Fichiers CAD — Alliance Sacré-Cœur" loading="lazy" style="width:100%;height:100%;object-fit:cover">
+          </div>
+          <div class="service-detail-content">
+            <h3>Fichiers <span class="gold">CAD</span></h3>
+            <span class="price">Inclus avec la modélisation</span>
+            <p>Livraison de fichiers dans les formats standards de l'industrie joaillière, compatibles avec les ateliers de fabrication et les imprimantes 3D professionnelles.</p>
+            <ul>
+              <li>STL (impression 3D)</li>
+              <li>OBJ (rendu et visualisation)</li>
+            </ul>
+            <p><strong>Garantie :</strong> Fichiers vérifiés et prêts à l'emploi</p>
+            <a href="fichiers-cao-stl-bijoux.html" class="btn" style="margin-top:1rem">En savoir plus</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- BEFORE/AFTER SHOWCASE -->
+  <section class="section" style="background:var(--bg-light)">
+    <div class="container">
+      <h2 class="section-title reveal">Du CAD au <span class="gold">Rendu</span></h2>
+      <div class="divider reveal"></div>
+      <p class="section-subtitle reveal">Le même bijou, de la modélisation technique au visuel final.</p>
+
+      <div class="before-after-grid">
+        <div class="before-after-item reveal">
+          <div class="ba-label">Modélisation CAD</div>
+          <img id="ba-cad-img" src="images/Fleur Y.PNG" alt="Bague Fleur — CAD" loading="lazy">
+        </div>
+        <div class="before-after-arrow reveal">&#10132;</div>
+        <div class="before-after-item reveal">
+          <div class="ba-label">Rendu Final</div>
+          <img id="ba-render-img" src="images/fleur.png" alt="Bague Fleur — Rendu" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING TABLE -->
+  <section id="tarifs" class="section" style="padding:80px 0">
+    <div class="container">
+      <h2 class="section-title reveal">Prix <span class="gold">Indicatifs</span></h2>
+      <div class="divider reveal"></div>
+      <p class="section-subtitle reveal">Les prix sont indicatifs et peuvent varier selon la complexité de la pièce et le temps de travail nécessaire. Pour toute pièce sur mesure ou particulière, merci de me contacter pour un devis personnalisé.</p>
+
+      <div class="pricing-table reveal">
+        <table>
+          <thead>
+            <tr>
+              <th>Type de pièce</th>
+              <th>Prix indicatif</th>
+            </tr>
+          </thead>
+          <tbody id="pricing-tbody">
+            <tr><td>Solitaire simple</td><td>40 €</td></tr>
+            <tr><td>Solitaire épaulé / accompagné</td><td>60 – 80 €</td></tr>
+            <tr><td>Bague entourage</td><td>80 € ou sur devis</td></tr>
+            <tr><td>Boucles d'oreilles (puces ou créoles)</td><td>30 €</td></tr>
+            <tr><td>Pendentif</td><td>50 €</td></tr>
+            <tr><td>Bracelet jonc (charnière + fermoir cliquet)</td><td>120 €</td></tr>
+            <tr><td>Bracelet tennis</td><td>130 – 150 €</td></tr>
+            <tr class="highlight"><td>Pièces complexes / sur mesure</td><td>Sur devis</td></tr>
+          </tbody>
+        </table>
+        <div class="pricing-option" id="pricing-option-text">Option rendu photoréaliste : <span class="gold">+20 €</span></div>
+      </div>
+
+      <div style="text-align:center;margin-top:2.5rem" class="reveal">
+        <a href="contact.html" class="btn btn-fill">Obtenir un devis gratuit</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-banner">
+    <div class="container">
+      <h2 class="reveal">Prêt à donner <span class="gold">vie</span> à votre bijou ?</h2>
+      <p class="reveal">Du croquis au prototype, je vous accompagne à chaque étape.</p>
+      <a href="contact.html" class="btn btn-fill reveal">Démarrer un projet</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <a href="index.html" class="logo"><img src="images/Logo.svg" alt="AV Logo" class="logo-img"><span class="logo-text">Anton <span>Vertanessian</span></span></a>
+        <div class="footer-links">
+          <a href="services.html">Services</a>
+          <a href="modelisation-3d-bijoux.html">Modélisation 3D de bijoux</a>
+          <a href="rendu-photorealiste-bijoux.html">Rendu photoréaliste de bijoux</a>
+          <a href="fichiers-cao-stl-bijoux.html">Fichiers CAO STL et OBJ</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="contact.html">Contact</a>
+          <a href="mentions-legales.html">Mentions légales</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2026 Anton Vertanessian — Anton Vertanessian CAD Joaillerie. Tous droits réservés. | SIRET : 102 025 053 00012
+      </div>
+    </div>
+  </footer>
+
+  <script src="data/site-data.js?v=4"></script>
+  <script src="script.js?v=4"></script>
+</body>
+</html>
