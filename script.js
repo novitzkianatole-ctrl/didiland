@@ -114,7 +114,7 @@ function renderPortfolio(portfolio) {
     for (const item of items) {
       const wideClass = item.wide ? ' portfolio-item--wide' : '';
       html += `<div class="portfolio-item${wideClass}" data-tags="${item.tags.join(' ')}">
-        <img src="${item.image}" alt="${item.title} — ${item.description}" loading="lazy">
+        <img src="${item.image}" alt="${item.alt || item.title + ' — ' + item.description}" loading="lazy">
         <div class="overlay">
           <div>
             <h4>${item.title}</h4>
@@ -176,6 +176,7 @@ function setupPortfolioLightbox() {
     currentIndex = index;
     const img = visible[currentIndex].querySelector('img');
     lightboxImg.src = img.src;
+    lightboxImg.alt = img.alt;
     lightbox.classList.add('active');
     document.body.style.overflow = 'hidden';
   }
@@ -188,7 +189,9 @@ function setupPortfolioLightbox() {
   function navigate(dir) {
     const visible = getVisibleItems();
     currentIndex = (currentIndex + dir + visible.length) % visible.length;
-    lightboxImg.src = visible[currentIndex].querySelector('img').src;
+    const next = visible[currentIndex].querySelector('img');
+    lightboxImg.src = next.src;
+    lightboxImg.alt = next.alt;
   }
 
   // Use event delegation for dynamically rendered items
@@ -271,7 +274,7 @@ function renderHomepage(data) {
       portfolioGrid.innerHTML = selectedItems.map((item, i) => {
         const wideClass = i === 0 ? ' portfolio-item--wide' : '';
         return `<div class="portfolio-item${wideClass} reveal">
-          <img src="${item.image}" alt="${item.title}" loading="lazy">
+          <img src="${item.image}" alt="${item.alt || item.title}" loading="lazy">
           <div class="overlay"><h4>${item.title}</h4></div>
         </div>`;
       }).join('');

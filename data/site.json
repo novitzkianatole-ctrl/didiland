@@ -2,7 +2,7 @@
   "homepage": {
     "featured": {
       "description": "Bague cocktail en or jaune sertie de pierres rouges taille ronde, avec un pavage raffiné sur le corps de bague. Modélisation complète réalisée sur Rhinoceros 3D avec rendu photoréaliste KeyShot.",
-      "image": "images/fleur.png",
+      "image": "images/bague-fleur-or-jaune-pierres-rouges.webp",
       "label": "Pièce à la une",
       "title": "Bague Fleur",
       "title_gold": "Fleur"
@@ -124,373 +124,401 @@
         "category": "rendu",
         "description": "Or jaune, pierres rouges taille ronde",
         "id": "fleur-1",
-        "image": "images/fleur.png",
+        "image": "images/bague-fleur-or-jaune-pierres-rouges.webp",
         "order": 1,
         "tags": [
           "rendu",
           "bague"
         ],
         "title": "Bague Fleur",
-        "wide": true
+        "wide": true,
+        "alt": "Rendu photoréaliste bague cocktail Fleur en or jaune sertie de pierres rouges taille ronde"
       },
       {
         "category": "rendu",
         "description": "Or blanc, saphir bleu coussin",
         "id": "saphir-1",
-        "image": "images/Anneau2.png",
+        "image": "images/bague-solitaire-saphir-or-blanc.webp",
         "order": 2,
         "tags": [
           "rendu",
           "bague"
         ],
         "title": "Solitaire Saphir",
-        "wide": false
+        "wide": false,
+        "alt": "Modélisation 3D bague solitaire en or blanc sertie d’un saphir bleu taille coussin"
       },
       {
         "category": "rendu",
         "description": "Argent, tanzanites taille ronde",
         "id": "stries-1",
-        "image": "images/stries Anneau.png",
+        "image": "images/bague-stries-argent-tanzanites.webp",
         "order": 3,
         "tags": [
           "rendu",
           "bague"
         ],
         "title": "Bague Stries",
-        "wide": true
+        "wide": true,
+        "alt": "Rendu 3D bague Stries en argent sertie de tanzanites taille ronde"
       },
       {
         "category": "rendu",
         "description": "Argent, texture minérale brute",
         "id": "rock-1",
-        "image": "images/rock.png",
+        "image": "images/bague-rock-argent-texture-brute.webp",
         "order": 4,
         "tags": [
           "rendu",
           "bague"
         ],
         "title": "Bague Rock",
-        "wide": false
+        "wide": false,
+        "alt": "Rendu 3D bague Rock en argent à texture minérale brute"
       },
       {
         "category": "rendu",
         "description": "Or jaune et argent martelé",
         "id": "forge-1",
-        "image": "images/bague forge.PNG",
+        "image": "images/bagues-forge-or-argent-martele.webp",
         "order": 5,
         "tags": [
           "rendu",
           "bague"
         ],
         "title": "Bagues Forge",
-        "wide": true
+        "wide": true,
+        "alt": "Rendu 3D de deux bagues Forge en or jaune et argent martelé"
       },
       {
         "category": "rendu",
         "description": "Or jaune, émail vert, diamants",
         "id": "broche-or-1",
-        "image": "images/BO.PNG",
+        "image": "images/broche-florale-or-email-vert-diamants.webp",
         "order": 6,
         "tags": [
           "rendu",
           "broche"
         ],
         "title": "Broche Florale",
-        "wide": false
+        "wide": false,
+        "alt": "Rendu photoréaliste broche florale en or jaune, émail vert et diamants"
       },
       {
         "category": "rendu",
         "description": "Argent, émail vert, diamants",
         "id": "broche-argent-1",
-        "image": "images/BO2.PNG",
+        "image": "images/broche-florale-argent-email-vert-diamants.webp",
         "order": 7,
         "tags": [
           "rendu",
           "broche"
         ],
         "title": "Broche Florale — Argent",
-        "wide": false
+        "wide": false,
+        "alt": "Rendu photoréaliste broche florale en argent, émail vert et diamants"
       },
       {
         "category": "rendu",
         "description": "Sculpture — Acier patiné, couronne or",
         "id": "crane-1",
-        "image": "images/Big E.PNG",
+        "image": "images/sculpture-crane-laurier-or.webp",
         "order": 8,
         "tags": [
           "rendu",
           "sculpture"
         ],
         "title": "Crâne Laurier d'Or",
-        "wide": false
+        "wide": false,
+        "alt": "Rendu 3D sculpture crâne en acier patiné couronné de lauriers en or"
       },
       {
         "category": "rendu",
         "description": "Sculpture — Vue plongeante",
         "id": "crane-2",
-        "image": "images/Big E vue haute.PNG",
+        "image": "images/sculpture-crane-laurier-vue-haute.webp",
         "order": 9,
         "tags": [
           "rendu",
           "sculpture"
         ],
         "title": "Crâne Laurier — Vue haute",
-        "wide": false
+        "wide": false,
+        "alt": "Sculpture crâne couronne de lauriers, vue plongeante du modèle 3D"
       },
       {
         "category": "blender",
         "description": "Vue CAD latérale",
         "id": "fleur-cad-x",
-        "image": "images/Fleur X.PNG",
+        "image": "images/bague-fleur-cao-profil.webp",
         "order": 1,
         "tags": [
           "blender",
           "bague"
         ],
         "title": "Bague Fleur — Profil",
-        "wide": false
+        "wide": false,
+        "alt": "Modèle CAO de la bague Fleur, vue de profil sur Rhino 3D"
       },
       {
         "category": "blender",
         "description": "Vue CAD frontale",
         "id": "fleur-cad-y",
-        "image": "images/Fleur Y.PNG",
+        "image": "images/bague-fleur-cao-face.webp",
         "order": 2,
         "tags": [
           "blender",
           "bague"
         ],
         "title": "Bague Fleur — Face",
-        "wide": false
+        "wide": false,
+        "alt": "Modèle CAO de la bague Fleur, vue de face avec chatons et griffes"
       },
       {
         "category": "blender",
         "description": "Vue CAD plongeante",
         "id": "fleur-cad-z",
-        "image": "images/Fleur Z.PNG",
+        "image": "images/bague-fleur-cao-dessus.webp",
         "order": 3,
         "tags": [
           "blender",
           "bague"
         ],
         "title": "Bague Fleur — Dessus",
-        "wide": false
+        "wide": false,
+        "alt": "Modèle CAO de la bague Fleur, vue de dessus des pierres serties"
       },
       {
         "category": "blender",
         "description": "Anneau serti, modélisation CAD",
         "id": "sacre-coeur-1",
-        "image": "images/Sacré Coeur 3.PNG",
+        "image": "images/alliance-sacre-coeur-sertie-cao.webp",
         "order": 4,
         "tags": [
           "blender",
           "bague"
         ],
         "title": "Alliance Sacré-Cœur",
-        "wide": true
+        "wide": true,
+        "alt": "Modélisation 3D alliance Sacré-Cœur sertie, fichier CAO pour impression 3D"
       },
       {
         "category": "blender",
         "description": "Gravure personnalisée",
         "id": "chevaliere-1",
-        "image": "images/b1.PNG",
+        "image": "images/chevaliere-plateau-gravure-cao.webp",
         "order": 5,
         "tags": [
           "blender",
           "bague"
         ],
         "title": "Chevalière — Plateau",
-        "wide": false
+        "wide": false,
+        "alt": "Modélisation 3D chevalière, plateau avec gravure personnalisée"
       },
       {
         "category": "blender",
         "description": "Sertissage latéral",
         "id": "chevaliere-2",
-        "image": "images/b2.PNG",
+        "image": "images/chevaliere-pierres-serti-lateral-cao.webp",
         "order": 6,
         "tags": [
           "blender",
           "bague"
         ],
         "title": "Chevalière — Pierres",
-        "wide": false
+        "wide": false,
+        "alt": "Modélisation 3D chevalière avec pierres en serti latéral"
       },
       {
         "category": "blender",
         "description": "Vue latérale",
         "id": "chevaliere-3",
-        "image": "images/b3.PNG",
+        "image": "images/chevaliere-profil-cao.webp",
         "order": 7,
         "tags": [
           "blender",
           "bague"
         ],
         "title": "Chevalière — Profil",
-        "wide": false
+        "wide": false,
+        "alt": "Modèle CAO chevalière, vue de profil"
       },
       {
         "category": "blender",
         "description": "Vue trois-quarts avec inscription",
         "id": "chevaliere-4",
-        "image": "images/b4.PNG",
+        "image": "images/chevaliere-perspective-inscription-cao.webp",
         "order": 8,
         "tags": [
           "blender",
           "bague"
         ],
         "title": "Chevalière — Perspective",
-        "wide": false
+        "wide": false,
+        "alt": "Modèle CAO chevalière en vue trois-quarts avec inscription"
       },
       {
         "category": "rhino",
         "description": "Solitaire avec inscription, vue trois-quarts",
         "id": "bague-florinne-1",
-        "image": "images/bague.PNG",
+        "image": "images/bague-solitaire-gravee-cao.webp",
         "order": 9,
         "tags": [
           "rhino",
           "bague"
         ],
         "title": "Solitaire Gravé",
-        "wide": false
+        "wide": false,
+        "alt": "Modélisation 3D bague solitaire gravée d’une inscription, vue trois-quarts"
       },
       {
         "category": "rhino",
         "description": "Solitaire, vue profil CAD",
         "id": "bague-florinne-2",
-        "image": "images/bague 2.PNG",
+        "image": "images/bague-solitaire-profil-cao.webp",
         "order": 10,
         "tags": [
           "rhino",
           "bague"
         ],
         "title": "Solitaire — Profil",
-        "wide": false
+        "wide": false,
+        "alt": "Modèle CAO bague solitaire, vue de profil du chaton et des griffes"
       },
       {
         "category": "rhino",
         "description": "Solitaire épaulé, vue profil",
         "id": "claire-1",
-        "image": "images/claire.PNG",
+        "image": "images/bague-solitaire-epaule-profil-cao.webp",
         "order": 11,
         "tags": [
           "rhino",
           "bague"
         ],
         "title": "Épaulé — Profil",
-        "wide": false
+        "wide": false,
+        "alt": "Modèle CAO bague solitaire épaulé, vue de profil"
       },
       {
         "category": "rhino",
         "description": "Solitaire épaulé, pierre émeraude, vue dessus",
         "id": "claire-2",
-        "image": "images/claire2.PNG",
+        "image": "images/bague-solitaire-epaule-emeraude-cao.webp",
         "order": 12,
         "tags": [
           "rhino",
           "bague"
         ],
         "title": "Épaulé — Dessus",
-        "wide": true
+        "wide": true,
+        "alt": "Modélisation 3D bague solitaire épaulé avec pierre émeraude, vue de dessus"
       },
       {
         "category": "rhino",
         "description": "Pendentif volutes avec pierres rondes",
         "id": "paloma-1",
-        "image": "images/paloma.PNG",
+        "image": "images/pendentif-volutes-pierres-rondes-cao.webp",
         "order": 13,
         "tags": [
           "rhino",
           "pendentif"
         ],
         "title": "Pendentif Volutes",
-        "wide": false
+        "wide": false,
+        "alt": "Modélisation 3D pendentif à volutes serti de pierres rondes"
       },
       {
         "category": "rhino",
         "description": "Pendentif poire serti, saphir bleu",
         "id": "pendentif-poire-1",
-        "image": "images/pendentif.PNG",
+        "image": "images/pendentif-poire-saphir-cao.webp",
         "order": 14,
         "tags": [
           "rhino",
           "pendentif"
         ],
         "title": "Pendentif Poire — Saphir",
-        "wide": false
+        "wide": false,
+        "alt": "Modélisation 3D pendentif goutte serti d’un saphir bleu taille poire"
       },
       {
         "category": "rhino",
         "description": "Pendentif poire, vue CAD sans pierre",
         "id": "pendentif-poire-2",
-        "image": "images/pendentif 2.PNG",
+        "image": "images/pendentif-poire-structure-cao.webp",
         "order": 15,
         "tags": [
           "rhino",
           "pendentif"
         ],
         "title": "Pendentif Poire — Structure",
-        "wide": false
+        "wide": false,
+        "alt": "Modèle CAO pendentif poire, structure sans pierre"
       },
       {
         "category": "rhino",
         "description": "Pendentif poire, vue face avec sertissage",
         "id": "pendentif-poire-3",
-        "image": "images/mise à jour.PNG",
+        "image": "images/pendentif-poire-sertissage-cao.webp",
         "order": 16,
         "tags": [
           "rhino",
           "pendentif"
         ],
         "title": "Pendentif Poire — Face",
-        "wide": false
+        "wide": false,
+        "alt": "Modèle CAO pendentif poire, vue de face avec sertissage"
       },
       {
         "category": "rhino",
         "description": "Maillons déployés, vue technique",
         "id": "tennis-1",
-        "image": "images/tennis.PNG",
+        "image": "images/bracelet-tennis-maillons-cao.webp",
         "order": 17,
         "tags": [
           "rhino",
           "bracelet"
         ],
         "title": "Tennis — Maillons",
-        "wide": true
+        "wide": true,
+        "alt": "Modélisation 3D bracelet tennis, maillons déployés en vue technique"
       },
       {
         "category": "rhino",
         "description": "Vue section assemblée, détail griffes",
         "id": "tennis-2",
-        "image": "images/teniss2.PNG",
+        "image": "images/bracelet-tennis-assemblage-griffes-cao.webp",
         "order": 18,
         "tags": [
           "rhino",
           "bracelet"
         ],
         "title": "Tennis — Assemblage",
-        "wide": true
+        "wide": true,
+        "alt": "Modèle CAO bracelet tennis assemblé, détail des griffes"
       },
       {
         "category": "rhino",
         "description": "Maillon individuel, vue détaillée",
         "id": "tennis-3",
-        "image": "images/teniss3.PNG",
+        "image": "images/bracelet-tennis-maillon-detail-cao.webp",
         "order": 19,
         "tags": [
           "rhino",
           "bracelet"
         ],
         "title": "Tennis — Détail",
-        "wide": false
+        "wide": false,
+        "alt": "Modèle CAO bracelet tennis, maillon individuel en détail"
       }
     ]
   },
   "services": {
     "before_after": {
-      "cad_image": "images/Fleur Y.PNG",
+      "cad_image": "images/bague-fleur-cao-face.webp",
       "cad_label": "Modélisation CAD",
-      "render_image": "images/fleur.png",
+      "render_image": "images/bague-fleur-or-jaune-pierres-rouges.webp",
       "render_label": "Rendu Final"
     },
     "details": [
@@ -505,7 +533,7 @@
         ],
         "footer": "<strong>Logiciels :</strong> Rhinoceros 3D, ZBrush",
         "id": "modelisation",
-        "image": "images/Fleur X.PNG",
+        "image": "images/bague-fleur-cao-profil.webp",
         "price": "Voir grille tarifaire ci-dessous",
         "title": "Modélisation 3D",
         "title_gold": "Sur Mesure",
@@ -522,7 +550,7 @@
         ],
         "footer": "<strong>Moteur :</strong> KeyShot / V-Ray",
         "id": "rendu",
-        "image": "images/fleur.png",
+        "image": "images/bague-fleur-or-jaune-pierres-rouges.webp",
         "price": "+20 € par rendu",
         "title": "Rendu",
         "title_gold": "Photoréaliste",
@@ -536,7 +564,7 @@
         ],
         "footer": "<strong>Garantie :</strong> Fichiers vérifiés et prêts à l'emploi",
         "id": "cad-files",
-        "image": "images/Sacré Coeur 3.PNG",
+        "image": "images/alliance-sacre-coeur-sertie-cao.webp",
         "price": "Inclus avec la modélisation",
         "title": "Fichiers",
         "title_gold": "CAD",
