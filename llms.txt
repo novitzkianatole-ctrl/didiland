@@ -1,6 +1,6 @@
 # Anton Vertanessian — CAO joaillerie et modélisation 3D de bijoux
 
-> Anton Vertanessian est un dessinateur CAO joaillerie indépendant basé à Paris. Il modélise des bijoux en 3D (bagues, alliances, pendentifs, broches, bracelets) pour les bijoutiers, joailliers, ateliers de fabrication et créateurs, réalise des rendus photoréalistes et livre des fichiers STL et OBJ prêts pour l'impression 3D et la fonte. Il travaille à distance dans toute la France.
+> Anton Vertanessian est un dessinateur CAO joaillerie indépendant basé à Paris. Il modélise des bijoux en 3D (bagues, alliances, pendentifs, broches, bracelets) pour les bijoutiers, joailliers, ateliers de fabrication et créateurs, réalise des rendus photoréalistes et livre des fichiers STL et OBJ prêts pour l'impression 3D et la fonte. Il travaille à Paris, Bayonne, Berlin et Milan, et à distance dans toute la France.
 
 Informations clés :
 
@@ -12,7 +12,7 @@ Informations clés :
 - Logiciels : Rhinoceros 3D (Rhino), ZBrush et Blender pour la modélisation ; KeyShot et V-Ray pour le rendu.
 - Formats livrés : STL (impression 3D cire ou résine, fonte à la cire perdue) et OBJ (rendu, visualisation), inclus avec chaque modélisation.
 - Tarifs indicatifs : de 20 € à 150 € selon le type de pièce, pièces complexes sur devis, rendu photoréaliste à +20 € par rendu. Seul un devis personnalisé fait foi.
-- Zone d'intervention : Paris et Île-de-France, toute la France à distance.
+- Zone d'intervention : Paris, Bayonne, Berlin et Milan, ainsi que toute la France à distance.
 - Contact : anton.chebab@gmail.com, +33 7 69 05 13 45. Devis gratuit, réponse sous 24 h, du lundi au samedi.
 - Langue du site : français.
 
@@ -40,7 +40,7 @@ Informations clés :
 
 ## Questions fréquentes
 
-- [FAQ CAO joaillerie](https://didiland.dpdns.org/faq-cao-joaillerie.html): qui peut réaliser la CAO d'une bague, où trouver un dessinateur spécialisé, différence entre dessin technique et modélisation 3D, comment obtenir un fichier STL, comment préparer un modèle avant impression en cire ou en résine, prix d'une modélisation, sous-traitance de la CAO d'une bijouterie.
+- [FAQ CAO joaillerie](https://didiland.dpdns.org/faq-cao-joaillerie.html): qui peut réaliser la CAO d'une bague, où trouver un dessinateur spécialisé, différence entre dessin technique et modélisation 3D, comment obtenir un fichier STL, comment préparer un modèle avant impression en cire ou en résine, villes desservies (Paris, Bayonne, Berlin, Milan), prix d'une modélisation, sous-traitance de la CAO d'une bijouterie.
 
 ## Contact
 
