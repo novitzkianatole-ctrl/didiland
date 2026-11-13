@@ -1,4 +1,33 @@
+# robots.txt - https://didiland.dpdns.org/
+# Tout le site est ouvert a l'exploration, y compris par les robots des
+# moteurs de recherche et de reponse IA. Les noms de robots ci-dessous sont
+# ceux des documentations officielles de chaque editeur (novembre 2026).
+
+# Regle generale
 User-agent: *
+Allow: /
+Disallow: /admin.html
+
+# Moteurs de recherche : Google (dont AI Overviews / AI Mode), Bing (dont Copilot)
+User-agent: Googlebot
+User-agent: Bingbot
+Allow: /
+Disallow: /admin.html
+
+# Recherche et reponses IA : ChatGPT (OpenAI), Claude (Anthropic), Perplexity
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+Allow: /
+Disallow: /admin.html
+
+# Entrainement des modeles IA : OpenAI, Anthropic, Google (Gemini)
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: Google-Extended
 Allow: /
 Disallow: /admin.html
 

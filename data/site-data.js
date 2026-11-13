@@ -282,7 +282,7 @@ window.__SITE_DATA__ = {
         ],
         "title": "Bague Fleur — Profil",
         "wide": false,
-        "alt": "Modèle CAO de la bague Fleur, vue de profil sur Rhino 3D",
+        "alt": "Modèle CAO de la bague Fleur, vue de profil",
         "width": 743,
         "height": 741
       },
@@ -517,7 +517,7 @@ window.__SITE_DATA__ = {
       },
       {
         "category": "rhino",
-        "description": "Pendentif poire, vue face avec sertissage",
+        "description": "Pendentif poire, ajours sous les pierres",
         "id": "pendentif-poire-3",
         "image": "images/pendentif-poire-sertissage-cao.webp",
         "order": 16,
@@ -525,9 +525,9 @@ window.__SITE_DATA__ = {
           "rhino",
           "pendentif"
         ],
-        "title": "Pendentif Poire — Face",
+        "title": "Pendentif Poire — Mise à jour",
         "wide": false,
-        "alt": "Modèle CAO pendentif poire, vue de face avec sertissage",
+        "alt": "Modèle CAO pendentif poire : mise à jour, ajours sous les pierres",
         "width": 1024,
         "height": 995,
         "srcset": "images/pendentif-poire-sertissage-cao-800.webp 800w, images/pendentif-poire-sertissage-cao.webp 1024w"
@@ -607,7 +607,7 @@ window.__SITE_DATA__ = {
         "title": "Modélisation 3D",
         "title_gold": "Sur Mesure",
         "page": "modelisation-3d-bijoux.html",
-        "alt": "Modèle CAO de la bague Fleur, vue de profil sur Rhino 3D"
+        "alt": "Modèle CAO de la bague Fleur, vue de profil"
       },
       {
         "description": "Des visuels de qualité photographique qui permettent à vos clients de se projeter avant la fabrication. Idéal pour les validations, les présentations commerciales et les réseaux sociaux.",
