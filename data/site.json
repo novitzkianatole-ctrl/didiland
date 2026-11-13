@@ -616,19 +616,20 @@
       },
       {
         "category": "rendu",
-        "description": "Or jaune, pierres vertes taille émeraude",
-        "id": "ajouree-1",
-        "image": "images/piece-ajouree-or-jaune-pierres-vertes.webp",
+        "description": "Or jaune, pierres vertes taille émeraude, bandes noires, bandes noires",
+        "id": "art-deco-1",
+        "image": "images/pendentif-art-deco-or-jaune-pierres-vertes.webp",
         "order": 12,
         "tags": [
-          "rendu"
+          "rendu",
+          "pendentif"
         ],
-        "title": "Pièce Ajourée",
+        "title": "Pendentif Art Déco",
         "wide": false,
-        "alt": "Rendu photoréaliste d'une pièce ajourée en or jaune sertie de pierres vertes taille émeraude et de pierres blanches rondes",
+        "alt": "Rendu photoréaliste d'un pendentif Art déco en or jaune serti de pierres vertes taille émeraude et de pierres blanches rondes, avec des bandes noires",
         "width": 1309,
         "height": 839,
-        "srcset": "images/piece-ajouree-or-jaune-pierres-vertes-800.webp 800w, images/piece-ajouree-or-jaune-pierres-vertes.webp 1309w"
+        "srcset": "images/pendentif-art-deco-or-jaune-pierres-vertes-800.webp 800w, images/pendentif-art-deco-or-jaune-pierres-vertes.webp 1309w"
       },
       {
         "category": "rendu",
