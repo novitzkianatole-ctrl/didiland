@@ -765,7 +765,7 @@ window.__SITE_DATA__ = {
     "pricing": [
       {
         "highlight": false,
-        "price": "40 €",
+        "price": "30 – 60 €",
         "type": "Solitaire simple"
       },
       {
@@ -775,22 +775,22 @@ window.__SITE_DATA__ = {
       },
       {
         "highlight": false,
-        "price": "80 € ou sur devis",
+        "price": "70 – 100 € ou sur devis",
         "type": "Bague entourage"
       },
       {
         "highlight": false,
-        "price": "30 €",
+        "price": "20 – 50 €",
         "type": "Boucles d'oreilles (puces ou créoles)"
       },
       {
         "highlight": false,
-        "price": "50 €",
+        "price": "40 – 70 €",
         "type": "Pendentif"
       },
       {
         "highlight": false,
-        "price": "120 €",
+        "price": "110 – 140 €",
         "type": "Bracelet jonc (charnière + fermoir cliquet)"
       },
       {

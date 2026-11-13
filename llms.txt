@@ -11,7 +11,7 @@ Informations clés :
 - Clients : bijoutiers, joailliers, ateliers de fabrication, créateurs de bijoux, maisons de joaillerie.
 - Logiciels : Rhinoceros 3D (Rhino), ZBrush et Blender pour la modélisation ; KeyShot et V-Ray pour le rendu.
 - Formats livrés : STL (impression 3D cire ou résine, fonte à la cire perdue) et OBJ (rendu, visualisation), inclus avec chaque modélisation.
-- Tarifs indicatifs : de 30 € à 150 € selon le type de pièce, pièces complexes sur devis, rendu photoréaliste à +20 € par rendu. Seul un devis personnalisé fait foi.
+- Tarifs indicatifs : de 20 € à 150 € selon le type de pièce, pièces complexes sur devis, rendu photoréaliste à +20 € par rendu. Seul un devis personnalisé fait foi.
 - Zone d'intervention : Paris et Île-de-France, toute la France à distance.
 - Contact : anton.chebab@gmail.com, +33 7 69 05 13 45. Devis gratuit, réponse sous 24 h, du lundi au samedi.
 - Langue du site : français.
