@@ -580,6 +580,122 @@ window.__SITE_DATA__ = {
         "alt": "Modèle CAO bracelet tennis, maillon individuel en détail",
         "width": 868,
         "height": 1041
+      },
+      {
+        "category": "rendu",
+        "description": "Or jaune, surface sculptée épousant l'oreille",
+        "id": "oreille-1",
+        "image": "images/bijou-oreille-sculpte-or-jaune.webp",
+        "order": 10,
+        "tags": [
+          "rendu"
+        ],
+        "title": "Bijou d'Oreille Sculpté",
+        "wide": true,
+        "alt": "Rendu photoréaliste d'un bijou d'oreille sculpté en or jaune, porté sur une oreille de présentation",
+        "width": 1600,
+        "height": 900,
+        "srcset": "images/bijou-oreille-sculpte-or-jaune-800.webp 800w, images/bijou-oreille-sculpte-or-jaune.webp 1600w"
+      },
+      {
+        "category": "rendu",
+        "description": "Or jaune poli, deux gorges",
+        "id": "alliance-gorges-1",
+        "image": "images/alliance-or-jaune-deux-gorges.webp",
+        "order": 11,
+        "tags": [
+          "rendu",
+          "bague"
+        ],
+        "title": "Alliance Or Jaune",
+        "wide": false,
+        "alt": "Rendu photoréaliste d'une alliance en or jaune poli à deux gorges",
+        "width": 1600,
+        "height": 984,
+        "srcset": "images/alliance-or-jaune-deux-gorges-800.webp 800w, images/alliance-or-jaune-deux-gorges.webp 1600w"
+      },
+      {
+        "category": "rendu",
+        "description": "Or jaune, pierres vertes taille émeraude",
+        "id": "ajouree-1",
+        "image": "images/piece-ajouree-or-jaune-pierres-vertes.webp",
+        "order": 12,
+        "tags": [
+          "rendu"
+        ],
+        "title": "Pièce Ajourée",
+        "wide": false,
+        "alt": "Rendu photoréaliste d'une pièce ajourée en or jaune sertie de pierres vertes taille émeraude et de pierres blanches rondes",
+        "width": 1309,
+        "height": 839,
+        "srcset": "images/piece-ajouree-or-jaune-pierres-vertes-800.webp 800w, images/piece-ajouree-or-jaune-pierres-vertes.webp 1309w"
+      },
+      {
+        "category": "rendu",
+        "description": "Or jaune poli, nervures en relief",
+        "id": "erable-1",
+        "image": "images/feuille-erable-or-jaune.webp",
+        "order": 13,
+        "tags": [
+          "rendu"
+        ],
+        "title": "Feuille d'Érable",
+        "wide": false,
+        "alt": "Rendu photoréaliste d'une feuille d'érable en or jaune poli aux nervures en relief",
+        "width": 1309,
+        "height": 839,
+        "srcset": "images/feuille-erable-or-jaune-800.webp 800w, images/feuille-erable-or-jaune.webp 1309w"
+      },
+      {
+        "category": "rendu",
+        "description": "Or jaune, lettres gothiques et croix sertie",
+        "id": "medaille-1",
+        "image": "images/pendentif-medaille-monogramme-or-jaune.webp",
+        "order": 14,
+        "tags": [
+          "rendu",
+          "pendentif"
+        ],
+        "title": "Pendentif Médaille",
+        "wide": false,
+        "alt": "Rendu photoréaliste d'un pendentif médaille en or jaune sur chaîne, lettres gothiques et croix sertie en métal blanc",
+        "width": 1309,
+        "height": 839,
+        "srcset": "images/pendentif-medaille-monogramme-or-jaune-800.webp 800w, images/pendentif-medaille-monogramme-or-jaune.webp 1309w"
+      },
+      {
+        "category": "rendu",
+        "description": "Or jaune, deux plateaux ronds sur colonnes",
+        "id": "colonnes-1",
+        "image": "images/bague-ouverte-colonnes-or-jaune.webp",
+        "order": 15,
+        "tags": [
+          "rendu",
+          "bague"
+        ],
+        "title": "Bague Ouverte Colonnes",
+        "wide": false,
+        "alt": "Rendu photoréaliste d'une bague ouverte en or jaune, deux plateaux ronds sur colonnes cannelées",
+        "width": 1309,
+        "height": 839,
+        "srcset": "images/bague-ouverte-colonnes-or-jaune-800.webp 800w, images/bague-ouverte-colonnes-or-jaune.webp 1309w"
+      },
+      {
+        "category": "rendu",
+        "description": "Rendu des maillons sertis de pierres blanches",
+        "id": "tennis-rendu-1",
+        "image": "images/bracelet-tennis-or-jaune-rendu.webp",
+        "order": 16,
+        "tags": [
+          "rendu",
+          "bracelet"
+        ],
+        "title": "Bracelet Tennis — Or Jaune",
+        "wide": true,
+        "alt": "Rendu photoréaliste du bracelet tennis en or jaune, maillons articulés sertis de pierres blanches",
+        "width": 1309,
+        "height": 839,
+        "srcset": "images/bracelet-tennis-or-jaune-rendu-800.webp 800w, images/bracelet-tennis-or-jaune-rendu.webp 1309w"
       }
     ]
   },
